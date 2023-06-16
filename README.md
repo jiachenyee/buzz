@@ -52,3 +52,6 @@ Button("Play") {
 ## Demo Project
 I've built a demo project that has a circle animation demo along with a heartbeat one. 
 Download it and play around [here](Buzz-Demo).
+
+## License
+[MIT](License). Do whatever you want.
