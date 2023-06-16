@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761879A12A3BFD4C00D6CC85 /* Buzz_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879A02A3BFD4C00D6CC85 /* Buzz_DemoApp.swift */; };
+		761879A32A3BFD4C00D6CC85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879A22A3BFD4C00D6CC85 /* ContentView.swift */; };
+		761879A52A3BFD4D00D6CC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761879A42A3BFD4D00D6CC85 /* Assets.xcassets */; };
+		761879A82A3BFD4D00D6CC85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761879A72A3BFD4D00D6CC85 /* Preview Assets.xcassets */; };
+		761879B22A3BFDA100D6CC85 /* Buzz in Frameworks */ = {isa = PBXBuildFile; productRef = 761879B12A3BFDA100D6CC85 /* Buzz */; };
+		761879B42A3BFDC900D6CC85 /* CircleHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879B32A3BFDC900D6CC85 /* CircleHaptics.swift */; };
+		761879B62A3C0EB700D6CC85 /* CircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879B52A3C0EB700D6CC85 /* CircleDemo.swift */; };
+		761879BA2A3C0F6B00D6CC85 /* HeartbeatDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879B92A3C0F6B00D6CC85 /* HeartbeatDemo.swift */; };
+		761879BD2A3C102300D6CC85 /* HeartbeatHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761879BC2A3C102300D6CC85 /* HeartbeatHaptics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7618799D2A3BFD4C00D6CC85 /* Buzz-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buzz-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761879A02A3BFD4C00D6CC85 /* Buzz_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz_DemoApp.swift; sourceTree = "<group>"; };
+		761879A22A3BFD4C00D6CC85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		761879A42A3BFD4D00D6CC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761879A72A3BFD4D00D6CC85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		761879AF2A3BFD5B00D6CC85 /* Buzz */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Buzz; path = ..; sourceTree = "<group>"; };
+		761879B32A3BFDC900D6CC85 /* CircleHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleHaptics.swift; sourceTree = "<group>"; };
+		761879B52A3C0EB700D6CC85 /* CircleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDemo.swift; sourceTree = "<group>"; };
+		761879B92A3C0F6B00D6CC85 /* HeartbeatDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartbeatDemo.swift; sourceTree = "<group>"; };
+		761879BC2A3C102300D6CC85 /* HeartbeatHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatHaptics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7618799A2A3BFD4C00D6CC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761879B22A3BFDA100D6CC85 /* Buzz in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761879942A3BFD4C00D6CC85 = {
+			isa = PBXGroup;
+			children = (
+				7618799F2A3BFD4C00D6CC85 /* Buzz-Demo */,
+				761879AE2A3BFD5B00D6CC85 /* Packages */,
+				7618799E2A3BFD4C00D6CC85 /* Products */,
+				761879B02A3BFDA100D6CC85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7618799E2A3BFD4C00D6CC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7618799D2A3BFD4C00D6CC85 /* Buzz-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7618799F2A3BFD4C00D6CC85 /* Buzz-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				761879A02A3BFD4C00D6CC85 /* Buzz_DemoApp.swift */,
+				761879A22A3BFD4C00D6CC85 /* ContentView.swift */,
+				761879BB2A3C101A00D6CC85 /* Circle Animation */,
+				761879BE2A3C115F00D6CC85 /* Heartbeat Animation */,
+				761879A42A3BFD4D00D6CC85 /* Assets.xcassets */,
+				761879A62A3BFD4D00D6CC85 /* Preview Content */,
+			);
+			path = "Buzz-Demo";
+			sourceTree = "<group>";
+		};
+		761879A62A3BFD4D00D6CC85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				761879A72A3BFD4D00D6CC85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		761879AE2A3BFD5B00D6CC85 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				761879AF2A3BFD5B00D6CC85 /* Buzz */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		761879B02A3BFDA100D6CC85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		761879BB2A3C101A00D6CC85 /* Circle Animation */ = {
+			isa = PBXGroup;
+			children = (
+				761879B52A3C0EB700D6CC85 /* CircleDemo.swift */,
+				761879B32A3BFDC900D6CC85 /* CircleHaptics.swift */,
+			);
+			path = "Circle Animation";
+			sourceTree = "<group>";
+		};
+		761879BE2A3C115F00D6CC85 /* Heartbeat Animation */ = {
+			isa = PBXGroup;
+			children = (
+				761879B92A3C0F6B00D6CC85 /* HeartbeatDemo.swift */,
+				761879BC2A3C102300D6CC85 /* HeartbeatHaptics.swift */,
+			);
+			path = "Heartbeat Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7618799C2A3BFD4C00D6CC85 /* Buzz-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761879AB2A3BFD4D00D6CC85 /* Build configuration list for PBXNativeTarget "Buzz-Demo" */;
+			buildPhases = (
+				761879992A3BFD4C00D6CC85 /* Sources */,
+				7618799A2A3BFD4C00D6CC85 /* Frameworks */,
+				7618799B2A3BFD4C00D6CC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buzz-Demo";
+			packageProductDependencies = (
+				761879B12A3BFDA100D6CC85 /* Buzz */,
+			);
+			productName = "Buzz-Demo";
+			productReference = 7618799D2A3BFD4C00D6CC85 /* Buzz-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761879952A3BFD4C00D6CC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7618799C2A3BFD4C00D6CC85 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 761879982A3BFD4C00D6CC85 /* Build configuration list for PBXProject "Buzz-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761879942A3BFD4C00D6CC85;
+			productRefGroup = 7618799E2A3BFD4C00D6CC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7618799C2A3BFD4C00D6CC85 /* Buzz-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7618799B2A3BFD4C00D6CC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761879A82A3BFD4D00D6CC85 /* Preview Assets.xcassets in Resources */,
+				761879A52A3BFD4D00D6CC85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761879992A3BFD4C00D6CC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761879A32A3BFD4C00D6CC85 /* ContentView.swift in Sources */,
+				761879BD2A3C102300D6CC85 /* HeartbeatHaptics.swift in Sources */,
+				761879BA2A3C0F6B00D6CC85 /* HeartbeatDemo.swift in Sources */,
+				761879B42A3BFDC900D6CC85 /* CircleHaptics.swift in Sources */,
+				761879A12A3BFD4C00D6CC85 /* Buzz_DemoApp.swift in Sources */,
+				761879B62A3C0EB700D6CC85 /* CircleDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		761879A92A3BFD4D00D6CC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		761879AA2A3BFD4D00D6CC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761879AC2A3BFD4D00D6CC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buzz-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9W63WN9LG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Buzz-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761879AD2A3BFD4D00D6CC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buzz-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9W63WN9LG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Buzz-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761879982A3BFD4C00D6CC85 /* Build configuration list for PBXProject "Buzz-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761879A92A3BFD4D00D6CC85 /* Debug */,
+				761879AA2A3BFD4D00D6CC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761879AB2A3BFD4D00D6CC85 /* Build configuration list for PBXNativeTarget "Buzz-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761879AC2A3BFD4D00D6CC85 /* Debug */,
+				761879AD2A3BFD4D00D6CC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		761879B12A3BFDA100D6CC85 /* Buzz */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Buzz;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 761879952A3BFD4C00D6CC85 /* Project object */;
+}
