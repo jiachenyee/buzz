@@ -54,4 +54,4 @@ I've built a demo project that has a circle animation demo along with a heartbea
 Download it and play around [here](Buzz-Demo).
 
 ## License
-[MIT](License). Do whatever you want.
+[MIT](License).
