@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Haptic</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct /*@START_MENU_TOKEN@*/MyHaptics/*@END_MENU_TOKEN@*/: HapticSequence {
+    var haptics: HapticEvents {
+        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Haptics@*/Continuous(duration: 1)/*@END_MENU_TOKEN@*/
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>18E48331-B730-444B-9F97-9F5AEC3CDD4B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates a new HapticSequence struct.
+
+For more information, visit: github.com/jiachenyee/buzz/</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create Haptic Sequence</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
