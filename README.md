@@ -53,5 +53,13 @@ Button("Play") {
 I've built a demo project that has a circle animation demo along with a heartbeat one. 
 Download it and play around [here](Buzz-Demo).
 
+## Code Snippet
+Lazy to type in all that boilerplate? Use the `.codesnippet`.
+1. Quit Xcode and open Finder
+2. Press Command-Shift-G and paste in "~/Library/Developer/Xcode/UserData/CodeSnippets"
+3. Drag the [Buzz.codesnippet](Buzz.codesnippet) file into it.
+4. Relaunch Xcode
+5. Now you can access it by typing `Buzz` in Xcode, or by pressing Command-Shift-L to open your Library.
+
 ## License
 [MIT](License).
